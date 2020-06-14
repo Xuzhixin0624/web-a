@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>正能量艺人肖战</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul{
+			list-style-type: none;
+		}
+		.clear:after{
+			content: '';
+			display: block;
+			height: 0;
+			clear: both;
+		}
+		img{
+			vertical-align: bottom;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.header{
+			width: 100%;
+			margin: 0 auto;
+		}
+		.logo{
+			width: 236px;
+			height: 70px;
+			margin-top: 15px;
+		}
+		.nav{
+			margin-top: 40px;
+		}
+		.nav li{
+			float: left;
+			padding: 0 44px;
+			border-right: 2px solid rgba(0,0,0,1);
+		}
+		li.last{
+			border: none;
+		}
+		.nav a{
+			font-size: 16px;
+			font-weight: bold;
+			color: rgba(0,0,0,1);
+		}
+		a:hover{
+			color:red;
+		}
+		.form{
+			margin-top: 35px;
+			position: relitive;
+		}
+		.form*{
+			vertical-align: middle;
+		}
+		.form .search{
+			width: 147px;
+			height: 6px;
+			border: 1px soid rgba(208,61,61,1);
+			padding: 10px;
+			position: absolute;
+			right: 50px;
+		}
+		.form .submit{
+			width: 29px;
+			height: 29px;
+			border: 1px soid rgba(208,61,61,1);
+			background: rgba(208,61,61,1) url(img/2.jpg) no-repeat center center;
+			cursor: pointer;
+			position: absolute;
+			right: 15px;
+		}
+		:focus{
+			outline: none;
+		}
+		.banner{
+			height: 400px;
+			position: relative;
+			background-color: black;
+		}
+		.banner-1{
+			width: 75%;
+			height: 400px;
+			position: absolute;
+			top: 0;
+			left: 25%;
+			
+		}
+	
+		.banner-2{
+			color: white;
+			position: absolute;
+			height: 400px;
+			left: 8%;
+			top: 8%;
+		}
+		.role{
+			line-height: 50px;
+		}
+		.role-1{
+			color: red;
+			font-size: 22px;
+		}
+		.text-1{
+			padding-left: 4%;
+			padding-top: 40px;
+		}
+		.text-1 li{
+			float: left;
+			padding: 0 40px;
+		}
+		.container-1{
+			width: 100%;
+			weight: 100px;
+		}
+		.container-1-1{
+			font-size: 20px;
+			color: red; 
+		}
+		.container-1-2{
+			margin-left: 90px;
+			font-weight: bold;
+		}
+		.container-2{
+			width: 100%;
+			height: 400px;
+			padding-top: 5%;
+		}
+		.container-2 img{
+			width: 25%;
+			height: 95%;
+			float: left;
+			padding-left: 70px;
+			padding-top: 10px;
+		}
+		.container-3{
+			width: 100%;
+			padding-top: 1%;
+		}
+		.container-3 li{
+			margin-left: 10%;
+			float: left;
+			padding-left: 18px;
+			padding-top: 10px;
+		}
+		.container-4{
+			width: 100%;
+			height: 400px;
+			padding-top: 5%;
+		}
+		.container-4 img{
+			width: 25%;
+			height: 95%;
+			float: left;
+			padding-left: 70px;
+			padding-top: 10px;
+		}
+		.container-5{
+			width: 100%;
+			padding-top: 1%;
+		}
+		.container-5 li{
+			margin-left: 10%;
+			float: left;
+			padding-left: 18px;
+			padding-top: 10px;
+			
+		}
+		.text-2{
+			padding-left: 4%;
+			padding-top: 40px;
+		}
+		.text-2 li{
+			float: left;
+			padding: 0 40px;
+		}
+		.container-6{
+			width: 100%;
+			weight: 100px;
+			padding-top: 20px;
+		}
+		.container-6-1{
+			font-size: 20px;
+			color: red; 
+		}
+		.container-6-2{
+			margin-left: 90px;
+			font-weight: bold;
+		}
+		.title{
+			text-align: center;
+			padding-top: 80px;
+			height: 104px;
+			width: 100%;
+		}
+		.title h2{
+			font-size: 36px;
+			font-weight: bold;
+			color: red;
+			background: url(img/10.gif) center center;
+		}
+		.title .small{
+			font-size: 20px;
+			padding-top: 15px;
+		}
+		.container-7{
+			padding-left: 30px;
+		}
+		.container-8{
+			width: 100%;
+			margin: 0 auto;
+		}
+		.good{
+			width: 236px;
+			height: 300px;
+			margin-top: 15px;
+		}
+		.container-8-1{
+			margin-top: 40px;
+		}
+		.container-8-1 li{
+			float: left;
+			padding: 0 44px;
+			border-right: 2px solid rgba(0,0,0,1);
+			width: 300px;
+		}
+		.container-9{
+			text-align: center;
+			padding-top: 350px;
+			height: 104px;
+			width: 100%;
+		}
+		.container-9 h3{
+			font-size: 36px;
+			font-weight: bold;
+			color: red;
+			background: url(img/10.gif) center center;
+		}
+		.container-9 .small-2{
+			font-size: 20px;
+			padding-top: 15px;
+		}
+		.container-10{
+			width: 100%;
+			margin: 0 auto;
+		}
+		.well{
+			width: 236px;
+			height: 300px;
+			margin-top: 15px;
+		}
+		.container-10-1{
+			margin-top: 40px;
+		}
+		.container-10-1 li{
+			float: left;
+			padding: 0 44px;
+			border-right: 2px solid rgba(0,0,0,1);
+			width: 300px;
+		}
+		.container-11{
+			margin-top: 350px;
+			text-align: center;
+			height: 130px;
+			width: 100%;
+			border: 1px solid;
+		}
+	</style>
+</head>
+<body>
+	<div class="header clear">
+		<img src="img/1.jpg" alt="" class="logo fl"/>
+		<ul class="nav fl clear">
+			<li class="first">主页<a href=""></a></li>
+			<li><a href="">微博</a></li>
+			<li><a href="">绿洲</a></li>
+			<li><a href="">榜单</a></li>
+			<li><a href="">超话</a></li>
+			<li class="last"><a href="">公益</a></li>
+		</ul>
+		<form class="form clear fr">
+			<input type="text" placeholder="输入关键词" class="search">
+			<input type="button" class="submit" class="submit">
+		</form>
+	</div>
+	<div class="banner">
+		<img src="img/3.jpg" alt="" class="banner-1">
+		<ul class="banner-2">
+			<li class="role-1">每一个最好的你!</li>
+			<li class="role">方天泽</li>
+			<li class="role">梁老板</li>
+			<li class="role">永宁小妖</li>
+			<li class="role">林修崖</li>
+			<li class="role">北堂墨染</li>
+			<li class="role">......</li>
+		</ul>
+	</div>
+	<div class="container-1">
+		<ul class="text-1">
+			<li class="container-1-1">影视作品</li>
+			<li>陈情令</li>
+			<li>哦！我的皇帝陛下</li>
+			<li>斗罗大陆</li>
+			<li>诛仙</li>
+			<li class="container-1-2">筛选</li>
+		</ul>
+	</div>
+	<div class="container-2 clear">
+		<img src="img/4.jpg" alt="" >
+		<img src="img/5.jpg" alt="" >
+		<img src="img/6.jpg" alt="" >
+	</div>
+	<div class="container-3">
+		<ul>
+			<li>人间滚烫，肖战是人间理想</li>
+			<li>满树繁华，肖战是心之所向</li>
+			<li>皓月清凉，肖战是人间曙光</li>
+		</ul>
+	</div>
+	<div class="container-4 clear">
+		<img src="img/7.jpg" alt="" >
+		<img src="img/8.jpg" alt="" >
+		<img src="img/9.jpg" alt="" >
+	</div>
+	<div class="container-5">
+		<ul>
+			<li>万物生长，肖战是清晨阳光</li>
+			<li>万物皆苦，唯有肖战是救赎</li>
+			<li>愿你归来时依然是肖战！！</li>
+		</ul>
+	</div>
+	<div class="container-6">
+		<ul class="text-2">
+			<li class="container-6-1">歌曲成就</li>
+			<li>满足</li>
+			<li>光点</li>
+			<li>余年</li>
+			<li>无羁</li>
+			<li>踩影子</li>
+			<li><a href="" class="container-6-2">查看详情</a></li>
+		</ul>
+	</div>
+	<div class="title">
+		<div>
+			<h2>肖战
+				<p class="small">公益小赞</p>
+			</h2>
+		</div>
+	</div>
+	<div class="container-7">
+		<img src="img/11.jpg" alt="">
+		<img src="img/12.jpg" alt="">
+		<img src="img/13.jpg" alt="">
+		<img src="img/14.jpg" alt="">
+		<img src="img/15.jpg" alt="">
+		<img src="img/14.jpg" alt="">
+		<img src="img/13.jpg" alt="">
+	</div>
+	<div class="container-8">
+		<img src="img/17.jpg" alt="" class="good fl"/>
+		<ul class=" container-8-1 fl clear">
+			<li class="text-3">哪怕生活没那么顺心顺意，哪怕生活总要面对各种各样的困难，但是依然要坚定地向前看、向上走、不回头。正如我们刚刚经历的这场疫情，我们经过艰苦的努力，付出了巨大的牺牲，没有被困难打倒也没有一味的沉浸在悲伤当中，而是以一种积极向上的精神坚定前行，浴火重生。
+			</li>
+			<li class="text-4">相信自己的直觉，从未曾改变，最初的那张脸。经历多少次更迭，太多无法预言，安静跨越。迎接未来，不管多遥远，让特写放大的每一天，每一刻都要燃烧沸点。我们同生同源，更应同舟共济风雨同行。雨后仰望，天开地阔，生命本如流星般转瞬即逝，何不向爱而行，我们为爱而生。生命渺小，不可思议，生活绝不轻易放弃
+			</li>
+		</ul>
+	</div>
+	<div class="container-9">
+		<div>
+			<h3>肖战
+				<p class="small-2">音乐小赞</p>
+			</h3>
+		</div>
+	</div>
+	<div class="container-10">
+		<img src="img/18.gif" alt="" class="well fl"/>
+		<ul class=" container-10-1 fl clear">
+			<li class="text-5">可以说，销量9000万是一个沉甸甸的数字，这背后包含的是广大粉丝对于肖战的支持与鼓励，主要是想告诉他，无论是你的演员梦想，还是你的音乐梦想，我们都与你有约。以前若不能陪伴，今后一定相随，我觉得，这便是肖战的人格魅力了。
+			</li>
+			<li class="text-6">相信自己的直觉
+				从未曾改变最初的那张脸
+				经历多少次更迭
+				太多无法预言
+				安静跨越迎接未来不管多遥远
+				用特写放大着每一天
+				每一刻都要燃烧沸点
+
+			</li>
+		</ul>
+	</div>
+	<div class="container-11">
+		<p>肖战数据组出品</p><br/>
+		<p>官方电话:123456</p><br/>
+		<p>地址：繁星街</p>
+		<p>温馨提示：请您务必仔细阅读并理解透彻本声明</p>
+
+	</div>
+</body>
+</html>
